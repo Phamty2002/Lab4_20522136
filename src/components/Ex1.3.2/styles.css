@@ -1,0 +1,37 @@
+.PeopleList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .PeopleList li {
+    display: inline-block;
+  }
+  
+  .PeopleList a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .PeopleList a.currentPerson {
+    color: red;
+  }
+  
+  .Person {
+    margin-top: 20px;
+  }
+  
+  .Person h1 {
+    font-size: 24px;
+  }
+  
+  .Person-id,
+  .Person-address,
+  .Person-department {
+    margin-top: 10px;
+  }
+  
+  .Person-id,
+  .Person-department {
+    font-weight: bold;
+  }
+  
